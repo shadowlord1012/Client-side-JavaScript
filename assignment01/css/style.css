@@ -1,0 +1,53 @@
+h1{
+    font-size: 2.5em;
+    color:lightgreen;
+}
+h2 {
+    font-size: 1.75em;
+    color:lightgreen;
+}
+
+p, button{
+    font-size: 1.2em;
+    color:lightgreen;
+    padding: 5px;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    background-color: #cca700;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section:first-child{
+    display: grid;
+    grid-template-columns: 100%;
+    align-self: center;
+    text-align: center;
+}
+
+div{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    padding: 0px 5px;
+    width: 200px;
+}
+
+section:last-child {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+
+button {
+    width: 50%;
+    border-radius: 50%;
+    border-color: darkgray;
+}
