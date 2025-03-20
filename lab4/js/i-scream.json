@@ -8,34 +8,34 @@
             "calories": 240,
             "type": "ice-cream",
             "ingredients": ["Chocolate Syrup", "Peppermint Sprinkle", "Vanilla Base"],
-            "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/chocolate-mint.svg"
+            "image": "https://shadowlord1012.github.io/Client-side-JavaScript/lab4/images/chocolate-mint.svg"
         }, {
             "name": "Peach Mango",
             "calories": 285,
             "type": "milkshake-type ice-cream",
             "ingredients": ["Peach Syrup", "Mango Chunks", "Vanilla Base"],
-            "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/peach-mango.svg"
+            "image": "https://shadowlord1012.github.io/Client-side-JavaScript/lab4/images/peach-mango.svg"
         },
         {
             "name": "Strawberry Sprinkle",
             "calories": 300,
             "type": "ice-cream",
             "ingredients": ["Chocolate Syrup", "Strawberry Chunks", "Vanilla Base", "Sprinkles"],
-            "image": "https://priyansht.github.io/25W-JavaScript-02-Week11/images/strawberry-sprinkle.svg"
+            "image": "https://shadowlord1012.github.io/Client-side-JavaScript/lab4/images/strawberry-sprinkle.svg"
         },        
         {
             "name": "Blue Buried Treasure",
             "calories": 350,
             "type": "ice-cream",
             "ingredients": ["Blueberry chuncks", "Vanilla chunks", "Vanilla Base"],
-            "image": ""
+            "image": "https://shadowlord1012.github.io/Client-side-JavaScript/lab4/images/ice-cream-xtra1.svg"
         },        
         {
             "name": "Tiger tail",
             "calories": 290,
             "type": "ice-cream",
             "ingredients": ["orange Icecream", "chocolate base"],
-            "image": ""
+            "image": "https://shadowlord1012.github.io/Client-side-JavaScript/lab4/images/ice-cream-xtra2.svg"
         }
     ]
 }
