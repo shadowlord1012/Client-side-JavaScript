@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3 | COMP1073 Client-Side JavaScript The Pizza Maker</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/scripts.js" defer></script>
+
+</head>
+
+<body>
+    <h1>The Pizza Maker</h1>
+    <form action="" method="post">
+        <section id="Size">
+            <h3>Pizza Size</h3>
+            <label for="sizes">Pizza Size:</label>
+            <select id="sizes" name="sizes">
+                <option value="mini">Mini</option>
+                <option value="personal" selected>Personal</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="Xlarge">X-Large</option>
+                <option value="party">Party</option>
+            </select>
+        </section>
+        <section id="Crust">
+            <h3>Crust Type</h3>
+            <label for="thinCrust">Thin Crust</label>
+            <input type="radio" id="thinCrust" name="crust" value="thincrust">
+            <label for="regCrust">Regular Crust</label>
+            <input type="radio" id="regCrust" name="crust" value = "regcrust">
+            <label for="thickCrust">Thick crust</label>
+            <input type="radio" id="thickCrust" name="crust" value="thickcrust">
+        </section>
+        <section id="Sauces">
+            <h3>Sauce Type</h3>
+            <label for="sauceType">Sauces</label>
+            <select id="sauceType" name="sauceType">
+                <option value="reg" selected>Tomato</option>
+                <option value="alfredo">White Alfredo</option>
+                <option value="bbq">BBQ</option>
+                <option value="none">No Sauce</option>
+            </select>
+        </section>
+        <section id="cheese">
+            <h3>Cheese!</h3>
+            <label for="cheddar">Cheddar</label>
+            <input type="checkbox" id="cheddarCheese" name="cheeseType1" value="ched">
+            <label for="Mozzarella">Mozzarella</label>
+            <input type="checkbox" id="mozzarellaChesse" name="cheeseType2" value="moz">
+            <label for="Amount">How much? </label>
+            <select id="Amount" name="Amount">
+                <option value="none">None</option>
+                <option value="reg" selected>Regular</option>
+                <option value="extra">Extra</option>
+                <option value="double">Double</option>
+            </select>
+        </section>
+        <section id="Toppings">
+            <h3>On The Top</h3>
+            <div id="meats">
+                <h3>Meats:</h3>
+                <label for="topping1">Pepperoni</label>
+                <input type="checkbox" id="topping1" name="topping1" value="Pepperoni">
+                <label for="toppingOneAmount">Extra</label>
+                <input type="radio" id="toppingOneAmount" name="toppingOneAmount" value="toppingOneAmount">
+                <label for="topping2">Sausage</label>
+                <input type="checkbox" id="topping2" name="topping2" value="Sausage">
+                <label for="toppingTwoAmount">Extra</label>
+                <input type="radio" id="toppingTwoAmount" name="toppingTwoAmount" value="toppingTwoAmount">
+                <label for="topping3">Bacon</label>
+                <input type="checkbox" id="topping3" name="topping3" value="Bacon">
+                <label for="toppingThreeAmount">Extra</label>
+                <input type="radio" id="toppingThreeAmount" name="toppingThreeAmount" value="toppingThreeAmount">
+                <label for="topping4">Prosciutto</label>
+                <input type="checkbox" id="topping4" name="topping4" value="Prosciutto">
+                <label for="toppingFourAmount">Extra</label>
+                <input type="radio" id="toppingFourAmount" name="toppingFourAmount" value="toppingFourAmount">
+                <label for="topping5">Chicken</label>
+                <input type="checkbox" id="topping5" name="topping5" value="Chicken">
+                <label for="toppingFiveAmount">Extra</label>
+                <input type="radio" id="toppingFiveAmount" name="toppingFiveAmount" value="toppingFiveAmount">
+            </div>
+            <div id="vegetables">
+                <h3>Vegetables:</h3>
+                <label for="topping6">Mushrooms</label>
+                <input type="checkbox" id="topping6" name="topping6" value="Mushrooms">
+                <label for="toppingSixAmount">Extra</label>
+                <input type="radio" id="toppingSixAmount" name="toppingSixAmount" value="toppingSixAmount">
+                <label for="topping7">Onions</label>
+                <input type="checkbox" id="topping7" name="topping7" value="Onions">
+                <label for="toppingSevenAmount">Extra</label>
+                <input type="radio" id="toppingSevenAmount" name="toppingSevenAmount" value="toppingSevenAmount">
+                <label for="topping8">Green Olives</label>
+                <input type="checkbox" id="topping8" name="topping8" value="Green Olives">
+                <label for="toppingEightAmount">Extra</label>
+                <input type="radio" id="toppingEightAmount" name="toppingEightAmount" value="toppingEightAmount">
+                <label for="topping9">Tomatoes</label>
+                <input type="checkbox" id="topping9" name="topping9" value="Tomatoes">
+                <label for="toppingNineAmount">Extra</label>
+                <input type="radio" id="toppingNineAmount" name="toppingNineAmount" value="toppingNineAmount">
+            </div>
+        </section>
+        <section id="submitBtn">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </section>
+    </form>
+    <section>
+        <p>There are unlimited toppings for building pizzas. I chose only ten for proof of concept</p>
+        <p id="studentInformation"></p>
+    </section>
+</body>
+</html>
