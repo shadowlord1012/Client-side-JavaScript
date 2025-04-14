@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Assignment 4 | COMP1073 Client-side JavaScript API</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="js/js.js" defer></script>
+</head>
+
+<body>
+    <h1>Whos that Pokemon!</h1>
+    <p id="studentInfo"></p>
+    <p>
+        <label for="gameName">Enter Pokemon by name or a number value</label>
+        <input type="text" id="gameName" class="gameName" default="1" >
+    </p>
+    <h3>Game Version</h3>
+    <section>
+        
+        <div id="userInput">
+                <label for="red_blue">Red / Blue</label>
+                <input type="radio" id="red_blue" name="version" value="red-blue">
+                <label for="gold_sliver">Gold / Silver</label>
+                <input type="radio" id="gold_silver" name="version" value="gold-sliver">
+                <label for="yellow">Yellow</label>
+                <input type="radio" id="yellow" name="version" value="yellow">
+                <label for="emerald">Emerald</label>
+                <input type="radio" id="emerald" name="version" value="emerald">
+                <label for="fireRed_leafGreen">Fire Red / Leaf Green</label>
+                <input type="radio" id="fireRed_leafGreen" name="version" value="firered-leafgreen">
+                <label for="crystal">Crystal</label>
+                <input type="radio" id="crystal" name="version" value="crystal">
+                <label for="diamond_pearl">Diamond / Pearl</label>
+                <input type="radio" id="diamond_pearl" name="version" value="diamond-pearl">
+                <label for="plat">Platinum</label>
+                <input type="radio" id="plat" name="version" value="platinum">
+                <label for="heartGold_soulSliver">Heart Gold/ Soul Silver</label>
+                <input type="radio" id="heartGold_soulSliver" name="version" value="heartgold-soulsilver">
+                <label for="blackwhite">Black and White</label>
+                <input type="radio" id="blackwhite" name="version" value="black-white">
+                <label for="blackwhite2">Black and White 2</label>
+                <input type="radio" id="blackwhite2" name="version" value="black-2-white-2">
+                <label for="xy">X-Y</label>
+                <input type="radio" id="xy" name="version" value="x-y">
+                <label for="omgrb_alphspphr">Omega Ruby / Alpha Sapphire</label>
+                <input type="radio" id="omgrb_alphspphr" name="version" value="omega-ruby-alpha-sapphire">
+                <label for="sunmoon">Sun / Moon</label>
+                <input type="radio" id="sunmoon" name="version" value="sun-moon">
+                <label for="Ultrasunmoon">Ultra Sun / Moon</label>
+                <input type="radio" id="Ultrasunmoon" name="version" value="ultra-sun-ultra-moon">
+                <label for="swordsheild">Sword / Shield</label>
+                <input type="radio" id="swordsheild" name="version" value="sword-shield">
+                <label for="brilldiamshinpear">Brilliant Diamond / Shining Pearl</label>
+                <input type="radio" id="brilldiamshinpear" name="version" value="brilliant-diamond-and-shining-pearl">
+                <label for="scarviol"> Scarlet / Violet </label>
+                <input type="radio" id="scarviol" name="version" value="scarlet-violet">
+        </div>        
+    </section>    
+    <input type="submit" id="search" value="Search">
+    <p id="error"></p>
+    <section id="informationFound">
+    </section>
+</body>
+</html>
